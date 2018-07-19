@@ -8,7 +8,7 @@ Jenny Gove là một trưởng nhóm nghiên cứu UX tại Google, nơi bà ti�
 
 Google và AnswerLab đã tiến hành một [nghiên cứu](https://www.google.com/think/multiscreen/whitepaper-sitedesign.html?utm_source=web-fundamentals&utm_term=chrome&utm_content=ux-landing&utm_campaign=web-fundamentals) để trả lời cho câu hỏi này.
 
-> Người dùng di động có xu định hướng về mục tiêu. Họ mong đợi có thể có được những gì họ cần, ngay lập tức, và theo mong muốn riêng của họ.
+> Người dùng di động có luôn hướng theo mục tiêu mà họ muốn. Họ mong đợi có thể có được những gì họ cần, ngay lập tức, và theo mong muốn riêng của họ.
 
 Nghiên cứu của tổ chức được thực hiện trong 119 giờ đồng hồ, với các cuộc thử nghiệm từ những người tham gia trực tiếp ở Mỹ. Những người tham gia được yêu cầu thực hiện các nhiệm vụ chính trên một tập hợp các trang web mobile đa dạng. Bao gồm cả những người dùng IOS và Android, và những người dùng thử nghiệm các trang web trên chính điện thoại của chính họ. Đối với mỗi trang web, người tham gia sẽ được hỏi để nói lên suy nghĩ của họ khi họ hoàn thành các công việc liên quan đến giao tiếp như một giao dịch hay đặt chỗ trước.
 
@@ -16,11 +16,11 @@ Nghiên cứu đã khám phá ra 25 nguyên lý thiết kế trang web mobile, �
 
 ## Trang chủ và trang điều hướng.
 
-**Thành công:** Tập trung vào trang chủ trên mobile của bạn để kết nối với người dùng với nội dung họ đang tìm kiếm.
+**Thành công:** Tập trung vào trang chủ trên mobile của bạn để kết nối người dùng với nội dung họ đang tìm kiếm.
 
 ### Giữ các lời gọi hành động ở trước và giữa 
 
-Thưc hiện các tác vụ có sẵn thông qua [menus](https://developers.google.com/web/fundamentals/design-and-ux/responsive/) hoặc “dưới màn hình đầu tiên” (một phần của trang web không thể xem được mà không cần cuộc xuống).
+Thưc hiện các tác vụ có sẵn thông qua [menus](https://developers.google.com/web/fundamentals/design-and-ux/responsive/) hoặc “dưới màn hình đầu tiên” (một phần của trang web không thể xem được mà không cần cuộn xuống).
 
 ![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/hpnav-cta-good.png) 
 **Nên Làm**: Tất cả các tác vụ phổ biến nhất của người dùng được thực hiện một cách dễ dàng.
@@ -35,10 +35,10 @@ Thưc hiện các tác vụ có sẵn thông qua [menus](https://developers.goog
 
 Người dùng thiết bị di động không có đủ kiên nhẫn để cuộn qua các danh sách dài tuỳ chọn để tìm điều họ muốn. Sắp xếp lại menu của bạn để sử dụng với ít mục nhất có thể, mà không phải hy sinh khả năng sử dụng.
 
-### Hãy làm dễ dàng quay lại trang chủ
+### Làm cho việc quay trở lại trang chủ dễ dàng hơn
 
 ![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/hpnav-hp-good.png) 
-**Nên làm**: Hãy làm dễ dàng quay lại trang chủ
+**Nên làm**: Làm cho việc quay trở lại trang chủ dễ dàng hơn
 
 Người dùng mong muốn quay lại trang chủ khi họ chạm vào logo trên cùng bên trái của một trang mobile, và họ trở nên thất vọng khi nó không có sẵn hoặc không hoạt động.
 
@@ -58,13 +58,13 @@ Các ứng dụng lớn sẽ cài các quảng cảo xen kẽ (ví dụ: Quảng
 
 ### Hiển thị thanh tìm kiếm trang web 
 
-Người dùng tìm kiếm thông tin luôn luôn mở thanh tìm kiếm, vì vậy thanh tìm kiếm nên là thứ đầu tiên họ thấy trên các trang của bạn. Đừng ẩn thanh tìm kiếm trong menu.
+Người dùng tìm kiếm thông tin thường chuyển sang tìm kiếm, do đó, thanh tìm kiếm phải là một trong những điều đầu tiên họ thấy trên các trang của bạn. Không ẩn thanh tìm kiếm trong menu.
 
 ![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/ss-search-good.jpg) 
 **Nên làm**: Hiển thị thanh tìm kiếm
 
 ![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/ss-search-bad.jpg) 
-**Không làm**: Ẩn thanh tìm kiếm ông các menu tràn ra
+**Không làm**: Ẩn thanh tìm kiếm trong các menu tràn ra
 
 ### Đảm bảo kết quả tìm kiếm có liên quan
 
@@ -78,7 +78,7 @@ Người dùng không muốn phải duyệt qua nhiều trang kết qủa để 
 
 ### Triển khai bộ lọc để thu hẹp kết quả.
 
-Các người tham gia nghiên cứu dựa vào các [bộ lọc](https://developers.google.com/custom-search/docs/structured_search) để tìm kiếm điều mà họ đang tìm, và từ bỏ các trang web không có bộ lọc hiểu quả. Đặt bộ lọc ở phía trên kết quả tìm kiếm và giúp người dùng hiển thị số lượng kết quả sẽ được trả lại khi một bộ lọc được áp dụng.
+Những người tham gia nghiên cứu dựa vào các [bộ lọc](https://developers.google.com/custom-search/docs/structured_search) để tìm kiếm điều mà họ đang tìm, và từ bỏ các trang web không có bộ lọc hiểu quả. Đặt bộ lọc ở phía trên kết quả tìm kiếm và giúp người dùng hiển thị số lượng kết quả sẽ được trả lại khi một bộ lọc được áp dụng.
 
 ![](https://developers.google.com/web/fundamentals/design-and-ux/principles/images/ss-filters-good.jpg) 
 **Nên làm**: Tạo bộ lọc dễ dàng hơn.
@@ -131,9 +131,9 @@ Người dùng hầu như muốn hoàn thành các tác vụ trên một thiết
 **Nên làm**: Cung cấp các cách dễ dàng cho người dùng để tiếp tục duyệt hoặc mua sắm trên một thiết bị khác.
 
 
-## Đầu vào form 
+## Mục nhập biểu mẫu
 
-**Thành công:** Cung cấp trải nghiệm chuyển đổi liền mạch, mượt mà với các form sử dụng được.
+**Thành công:** Cung cấp trải nghiệm chuyển đổi liền mạch, mượt mà với các biểu mẫu sử dụng được.
 
 ### Hợp lý hoá đầu vào của thông tin.
 
